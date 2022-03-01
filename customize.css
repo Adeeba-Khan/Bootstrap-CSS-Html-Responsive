@@ -1,0 +1,276 @@
+
+/* html tags customization */
+:root{
+
+    --main-font-color-dark: #de1fdb;
+    --secondary-font-color: #aede1f;
+    --body-font-color: #4f1fde;
+    --specific-color:#4ea3cd; 
+    --second-color:  #a66abe;
+}
+
+html,body{
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+
+overflow-x:hidden;
+
+}
+
+.coloured-section
+{
+background-color: var(--secondary-font-color);
+color:white;
+}
+
+.white-section
+{
+    background-color: white;
+}
+/* headings */
+h1,h2,h3,h4,h5{
+    
+font-family: "Montserrat-Bold";
+}
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+
+li{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    
+}
+nav button span{
+    color: black;
+}
+/* html main tag ends */
+
+
+/* navbar customize */
+.navbar-brand{
+    font-size: 1.7rem;
+font-family: 'Ubuntu', sans-serif;
+}
+.navbar-brand img{
+    height: 1.7rem;
+}
+nav a{
+    
+    color: white;
+}
+
+nav a:hover{
+    color: black;
+}
+.nav-item{
+    border: 1px darkcyan;
+}
+.nav-item a{
+
+    color: white !important;
+}
+
+.nav-item a:hover{
+    color: black;
+}
+.nav-item a:active a:visited{
+    color: black;
+}
+.navbar-toggler { 
+    border-color: #4f1fde;
+    border : 0.5px solid;
+   
+}
+.dropdown-menu
+{
+    background-color: #aede1f;
+    border: 3px solid black;
+    border-color: white;
+    color: white;
+}
+.dropdown-menu a:hover
+{
+color: #aede1f !important;
+background-color: white;
+}
+.logo
+{
+    padding: auto;
+}
+
+
+/* navbar customize end */
+
+
+/* hero section or title section */
+.container-fluid
+{
+    padding: 3% 15%;
+}
+
+.hero h1{
+padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.hero
+{
+    display: absolute;
+    margin: 0.3rem 0.3rem 5rem 0.3rem;
+      padding: 2px 4px; 
+      margin-bottom: 3rem;
+      text-align: left;
+ 
+}
+@media (max-width: 900px) {
+    .hero{
+        text-align: center;
+    }
+}
+    
+
+.titleFont{
+    /* padding: 40px;
+    margin: 2rem 0rem 2rem 0rem;
+    font-size: 2.7rem;
+    font-family: 'Montserrat', 'sans-serif';
+font-family: 'Ubuntu', sans-serif; */
+}
+.customIcon
+{
+
+    margin: .7rem;
+    padding: .5rem;
+}
+.hero_column
+{
+    padding: 0.5rem 1rem 3rem 1rem;}
+.hero_column img
+{
+   
+padding:0.2rem;
+}
+
+/* features css */
+
+
+#features
+{
+    padding: 5% 1%;
+    margin: auto;
+align-items: center;
+font-family: 'Ubuntu', sans-serif;
+
+
+}
+.feature_column i {
+    color:#aede1f;
+}
+.feature_column span i {
+    color: pink;
+}
+/* hero section/ titile section ends here */
+
+/* Feature section begins here */
+.feature_column {
+    padding: 1rem;
+    }
+.feature_column h3{
+    font-family:"Montserrat-Bold";
+}
+.feature_column p{
+    color: grey;
+}
+
+/* feature css ends */
+
+/* testimonials starts */
+
+
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+
+}
+
+.press-logo
+{
+    width: 15%;
+    margin :20px 20px 20px;
+}
+
+/* testimonials ends here */
+
+/* plans */
+
+#plans{
+    align-items: center;
+    margin-top:  2rem;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 2rem;
+}
+.card
+{
+margin: auto;
+}
+.card-Align
+{
+    
+    padding: 5% 17%;
+    margin: auto;
+}
+/* plans ends */
+
+/* call to action  */
+
+.ctar 
+{
+    padding: 5% 17%;
+    color:white;
+    
+}
+.ctaI img
+{
+    position: absolute;
+   width:30%;
+}
+/* call to action ends*/
+
+/* footer */
+#footer
+{
+    position: relative;
+    margin: auto;
+    z-index: -1;
+    
+}
+@media (max-width: 900px) {
+    
+    .ctaI img
+    {
+        position: static;
+        width: 60%;
+    } 
+    .card-dist{padding-bottom: 1rem;}
+}
+#footer p{
+    padding: 5% 17% 1% 17%;
+}
+#footer i{
+    padding: 3px;
+    margin-bottom: 1rem;
+}
+/* footer ends */
